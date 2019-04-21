@@ -1,0 +1,226 @@
+/******************* Pour la page connexion et inscription **********************/
+
+
+
+
+
+body{
+    background-color: #f2f2f2;
+
+}
+
+
+.retour{
+    position: fixed;
+    font-size: 4.5vw;
+    width: 100%;
+    height: 15vw;
+    border-bottom: solid 0.1px grey;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+
+
+.back{
+    content: url("icones/back.svg");
+    width: 5%;
+    left: 5%;
+    position: absolute;
+    z-index: 20;
+}
+
+
+
+.container{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 6vw;
+    position: relative;
+}
+
+
+
+
+input {
+    border: solid white;
+    padding: 2.9vw 2vw;
+    /* margin-bottom: 20px; */
+    color: #105B4E;
+    border-radius: 5vw;
+    font-size: 4.5vw;
+    width: 80%;
+
+
+}
+
+
+
+.img_mail{
+    content: url(icones/mail.svg);
+    width: 7%;
+    padding-left: 4%;
+    display: inline-block;
+    vertical-align: sub;
+}
+
+
+
+.img_mdp{
+    content: url(icones/mdp.svg);
+    width: 7%;
+    padding-left: 4%;
+    display: inline-block;
+    vertical-align: sub;
+
+}
+
+
+
+.img_user{
+    content: url(icones/user.svg);
+    width: 7%;
+    padding-left: 4%;
+    display: inline-block;
+    vertical-align: sub;
+}
+
+.inscription_formulaire{
+    margin-bottom: 14%;
+    margin-top: 40%;
+}
+
+
+
+.s_inscrire{
+    background-color: #105B4E;
+    padding: 9px 36px;
+    margin-bottom: 5%;
+    border-radius: 13px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 5.5vw;
+    font-weight: bold;
+}
+
+.call_to_action{
+    display: flex;
+    justify-content: center;
+
+}
+
+.block{
+    background-color: white;
+    margin-bottom: 21px;
+    border-radius: 13px;
+}
+
+.mention_legale{
+    text-align: center;
+    display: inline-block;
+    font-size: 3.2vw;
+}
+
+.condition{
+    display: block;
+    text-decoration: underline;
+    color: #105B4E;
+
+}
+
+
+/********************* Pour la page condition d'utilisation ****************************/
+
+
+.CGU{
+    display: flex;
+    flex-flow: column;
+    padding: 22vw 20px 0px;
+}
+
+
+h1 {
+    font-size: 5.5vw;
+    font-weight: bolder;
+}
+
+p{
+    font-size: 3.9vw;
+    padding-bottom: 8vw;
+}
+
+/*********************** A propos ******************************/
+
+.logo{
+
+    content: url("image/SVG/logo_lucky_vert.svg");
+    width: 65%;
+    margin-top: 24%;
+    margin-bottom: 4%;
+}
+
+.Membres{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.Peronnes{
+    display: contents;
+}
+
+.img_membres{
+    background: white;
+    width: 50vw;
+    border-radius: 50%;
+    height: 50vw;
+    box-shadow: 2px 2px 7px lightgrey;
+}
+
+/*********** les partenaires ****************/
+
+.partenaires > ul {
+    display: flex;
+    flex-flow: row;
+}
+
+li {
+    list-style: none;
+}
+
+a[href^="http://www.univ-fcomte.fr"] {
+    background-size: contain;
+    background-image: url("image/partenaires/UFC.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 0 40vw 7vw 0;
+    margin-right: 5vw;
+
+}
+
+
+a[href^="http://www.iut-bm.univ-fcomte.fr"] {
+    background-size: contain;
+    background-image: url("image/partenaires/IUT_BF.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 0 40vw 7vw 0px;
+
+}
+
+a[href^="http://mmimontbeliard.com"] {
+    background-size: contain;
+    background-image: url("image/partenaires/mmi.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 0 40vw 7vw 0px;
+
+}
+
