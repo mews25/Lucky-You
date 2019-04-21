@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Formulaire.css">
+    <title>Page Favoris</title>
+
+</head>
+<body>
+
+
+<div class="contain_flex">
+    <div class="Contain">
+
+        <div class="img_heart"></div>
+
+        <h3>Nom du Produit</h3>
+
+        <p>Note</p>
+
+        <div class="affiche_plus">
+            <div class="plus"></div>
+        </div>
+
+        <div class="composition">
+            <p>
+                <strong>COMPOSITION : </strong> maïs, farine de maïs, viandes de volaille déshydratées, graisses
+                animales, gluten de maïs, hydrolysat de
+                protéines animales, isolat de protéines végétales*, pulpe de betterave, sels minéraux, levures, huile de
+                soja, huile de poisson [...].
+            </p>
+        </div>
+
+        <div class="commentaire">
+            <div class="img_user"></div>
+            <p class="name_user"> Anne Dupont - </p>
+            <p class="date"> 2 février 2019</p>
+            <strong class="titre_commentaire"> Un produit très appétant </strong>
+            <p class="user_commentaire">
+                J'ai acheté ce paquet pour mon Jack Russel de 2 ans. Ces croquettes sont très appétentes et équilibrées,
+                parfaite pour mon chien. Il les adore !
+            </p>
+
+
+        </div>
+    </div>
+</div>
+
+<div class="contain_flex">
+    <div class="Contain">
+
+        <div class="img_heart"></div>
+
+        <h3>Nom du Produit</h3>
+
+        <p>Note</p>
+
+        <div class="affiche_plus">
+            <div class="plus"></div>
+        </div>
+
+        <div class="composition">
+            <p>
+                <strong>COMPOSITION : </strong> maïs, farine de maïs, viandes de volaille déshydratées, graisses
+                animales, gluten de maïs, hydrolysat de
+                protéines animales, isolat de protéines végétales*, pulpe de betterave, sels minéraux, levures, huile de
+                soja, huile de poisson [...].
+            </p>
+        </div>
+
+        <div class="commentaire">
+            <div class="img_user"></div>
+            <p class="name_user"> Anne Dupont - </p>
+            <p class="date"> 2 février 2019</p>
+            <strong class="titre_commentaire"> Un produit très appétant </strong>
+            <p class="user_commentaire">
+                J'ai acheté ce paquet pour mon Jack Russel de 2 ans. Ces croquettes sont très appétentes et équilibrées,
+                parfaite pour mon chien. Il les adore !
+            </p>
+
+
+        </div>
+    </div>
+</div>
+
+
+<nav class="nav_des_pages">
+    <ul class="pages">
+        <li> <a href=""></a> </li>
+        <li> <a href=""></a> </li>
+        <li> <a href=""></a> </li>
+        <li> <a href=""></a> </li>
+        <li> <a href=""></a> </li>
+
+
+    </ul>
+</nav>
+
+<script>
+
+    (function () {
+        "use strict";
+        var listeElements = document.querySelectorAll('.Contain');
+
+        function gestEvent(event) {
+            console.log(this);
+            for (const detail of listeElements) {
+                if (detail.classList.contains("open")) {
+                    detail.classList.remove("open");
+                }
+            }
+            this.classList.toggle("open");
+        }
+
+
+        for (var i = 0; i < listeElements.length; i++) {
+            var unElement = listeElements[i];
+            unElement.addEventListener('click', gestEvent)
+        }
+
+        var toggle = document.querySelector(".affiche_plus");
+
+        function doToggle() {
+            toggle.classList.toggle('active');
+        }
+
+        toggle.addEventListener('click', doToggle);
+
+
+    }());
+
+
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

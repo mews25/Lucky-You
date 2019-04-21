@@ -1,0 +1,59 @@
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 719.28 809.4">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-5 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        stroke-width: 25px;
+      }
+
+      .cls-2, .cls-3, .cls-5, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke-width: 9px;
+      }
+
+      .cls-5 {
+        stroke-width: 21px;
+      }
+
+      .cls-6 {
+        font-size: 125px;
+        font-family: Poppins-SemiBold, Poppins;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <title>luck</title>
+  <path class="cls-1" d="M379.5,100.8a257.36,257.36,0,0,1,155.67,61.87" transform="translate(-30.44 -38.5)"/>
+  <path class="cls-1" d="M354.5,617.2c-137-6.52-246-119.63-246-258.2s109-251.68,246-258.2" transform="translate(-30.44 -38.5)"/>
+  <path class="cls-1" d="M622.47,398.7C604,518.6,503.13,611.3,379.53,617.2" transform="translate(-30.44 -38.5)"/>
+  <ellipse class="cls-2" cx="241.06" cy="251.5" rx="18" ry="30.5"/>
+  <ellipse class="cls-2" cx="424.06" cy="251.5" rx="18" ry="30.5"/>
+  <path class="cls-2" d="M142.5,229.5s-36-125-23-141,125.27,42.67,125.27,42.67" transform="translate(-30.44 -38.5)"/>
+  <g id="moustache">
+    <rect class="cls-3" x="147.56" y="396.5" width="78" height="11" rx="5.5"/>
+    <rect class="cls-3" x="147.56" y="418.5" width="78" height="11" rx="5.5"/>
+  </g>
+  <polyline class="cls-4" points="349.06 578.7 349.06 663 324.06 663 324.06 578.7"/>
+  <line class="cls-4" x1="349.06" y1="62.3" x2="349.06" y2="578.7"/>
+  <polyline class="cls-4" points="324.06 62.3 324.06 0 349.06 0 349.06 62.3"/>
+  <line class="cls-4" x1="324.06" y1="578.7" x2="324.06" y2="62.3"/>
+  <path class="cls-5" d="M616.5,405.5c-15.19,6-17,11-32,14-45.47,9.17-56-30.46-56-30.46l7-226.54S689.7,301.44,693.83,318.76,616.5,405.5,616.5,405.5Z" transform="translate(-30.44 -38.5)"/>
+  <g>
+    <ellipse class="cls-3" cx="416.32" cy="404.4" rx="7.24" ry="6.9"/>
+    <ellipse class="cls-3" cx="435.32" cy="440.6" rx="7.24" ry="6.9"/>
+    <ellipse class="cls-3" cx="392.8" cy="440.6" rx="7.24" ry="6.9"/>
+  </g>
+  <text class="cls-6" transform="translate(43.83 735.28)">Lucky you</text>
+  <ellipse class="cls-3" cx="336.56" cy="383" rx="38" ry="20.5"/>
+</svg>
